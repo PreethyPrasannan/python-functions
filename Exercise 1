@@ -1,0 +1,11 @@
+# Print sum of the first two arguments if the third argument is none and printing the product of all three arguments if the third argument is not None
+
+def calculations(a, b=10, c=None):
+    if c is None:
+        print(f"The sum of {a} and {b} is:",(a+b))
+    else:
+        print(f"The product of {a},{b} and {c} is:",(a*b*c))
+
+calculations(2)
+calculations(2,5)
+calculations(2,5,4)
